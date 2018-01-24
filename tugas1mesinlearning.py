@@ -35,7 +35,7 @@ print("Prediksi Laki laki: ",lakilaki)
 print("Prediksi Perempuan: ",perempuan)
 print("Tidak ada prediksi: ",tidakada)
 
-if(lakilaki)>(perempuan):
+if(lakilaki)>(perempuan):               #membandingkan jumlah laki laki dan perempuan
     print(nama,"Bergender Laki laki")
 elif(lakilaki)<(perempuan):
     print(nama,"Bergender Perempuan")
